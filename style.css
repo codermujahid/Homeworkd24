@@ -1,0 +1,81 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .clearfix::after{
+	 content: "";
+	 clear: both;
+	 display: block;
+ }
+ .table{
+     height: 300px;
+     width: 300px;
+     background-color: orange;
+ }
+ img {
+	float: left;
+	width: 300px;
+
+    height: 237px;
+ }
+ .manu{}
+ul{}
+ul li {
+	float: left;
+	list-style: none;
+	text-decoration: none;
+}
+ul li a {
+	padding: 10px 30px;
+	display: inline-block;
+	background: tomato;
+	text-decoration: none;
+}
+ul li a:hover{
+	background-color: green;
+	transition: all .4s ease-in-out;
+}
+.room{
+	height: 300px;
+	width: 500px;
+	border: 1px solid aqua;
+	margin: auto;
+	margin-top: 70px;
+}
+.sofa{
+width: 50%;
+background-color: green;
+float: left;
+}
+.chear{
+width: 50%;
+background-color: red;
+float:right;
+}
+.chear2 {
+	width: 32.9%;
+	height: 100px;
+	background-color: rgb(178, 20, 184);
+	border: 1px solid white;
+	float: left;
+	margin-top: 30px;
+}
+.bcher{
+	width: 400px;
+	height: 200px;
+	background: #000;
+	float: left;
+}
+/* .btable {
+	width: 600px;
+	height: 400px;
+	background: red;
+	float: right;
+} */
+.sllider{
+	height: 100%;
+	width: 100%;
+	background-color: green;
+	height: 50px;
+	clear: right;
+}
